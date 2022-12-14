@@ -12,10 +12,12 @@ Set up-------------------------------
 
 -----------------------------------------------
    PORT=3000
-   mongodb+srv://<database access user>:<database access password>@<cluster name>.mongodb.net/?retryWrites=true&w=majority
+   
+   
+   mongodb+srv://'<database access user>':'<database access password>'@'<cluster name>'.mongodb.net/?retryWrites=true&w=majority
 ---------------------------------------------------------------------- 
 8. Type in terminal npm start hit enter   
-9. Type in your browser http://localhost:<PORT>/
+9. Type in your browser http://localhost:'<PORT>'/
 10. And enjoy!
 
 --------------------------------------
